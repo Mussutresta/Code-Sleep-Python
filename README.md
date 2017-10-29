@@ -99,7 +99,11 @@ Homophily is a network characteristic. Homophily occurs when nodes that share an
 
 ### Prime number finder
 
-The implementation of Sieve of Eratosthenes is used to find prime numbers.
+The implementation of Sieve of Eratosthenes is one of the most efficient ways to find primes which are smaller than a number say n, where n is usually less than 10 million. A list of numbers greater than one and less than or equal to n is created. The multiples of all primes less than or equal to square root of n is then struck off. The numbers that are left are the primes.
+
+Sieve's key distinction from trial division is to sequentially test each number for divisibility by each prime number.
+
+This method can be used to find primes in arithmetic progresions.
 
 ![](https://i.pinimg.com/564x/cc/c7/55/ccc7554b4ae9ee9781b752832224f3ef--sieve-of-eratosthenes-prime-factorization.jpg)
 
